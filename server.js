@@ -8,7 +8,7 @@ app.use(cors());
 // configuration des routes
 
 app.get('/', (req, res) => {
-    res.send("Hello test zbi ! ");
+    res.send("ca se met à jour apres chaque commit ? ");
   });
 
 
