@@ -11,6 +11,10 @@ app.get('/', (req, res) => {
     res.send("ca se met à jour apres chaque commit ? ");
   });
 
+  app.get('/badis', (req, res) => {
+    res.send("slash badis marche ");
+  });
+
 
 
 // et le serveur démarre
